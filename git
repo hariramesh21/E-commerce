@@ -5,3 +5,6 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/hariramesh21/E-commerce.git
 git push -u origin main
+git add requirements.txt
+git commit -m "Add requirements.txt"
+git push
