@@ -821,6 +821,7 @@ def home_page():
         </div>
     </div>
     ''')
+    show_offers_carousel()
 
     def show_category(name, items):
         put_html(f"""
