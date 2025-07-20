@@ -866,8 +866,7 @@ def home_page():
         for items in categories.values():
             for item in items:
                 if item["name"] == clicked:
-                    popup(item["name"], f"₹{item['price']} — Great choice!")
-
+                    show_item_info(item)
 
 # Run server
 if __name__ == "__main__":
